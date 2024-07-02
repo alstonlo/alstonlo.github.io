@@ -1,0 +1,20 @@
+---
+---
+
+@import
+  "font-awesome/fontawesome",
+  "font-awesome/brands",
+  "font-awesome/solid",
+  "font-awesome/regular";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+    @apply text-base text-left hyphens-auto my-2;
+}
+
+h1 {
+    @apply text-5xl mb-10;
+}

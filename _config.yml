@@ -1,0 +1,35 @@
+name: Alston Lo
+email: alston@mit.edu
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  
+url: ""
+baseurl: "" 
+icon: 🪴
+
+lang: en
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username:  alstonlo
+linkedin_username: alston-lo
+orcid_id: 0000-0003-1744-1446
+scholar_userid: VPvuTtMAAAAJ
+twitter_username: alston1o
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+include: ['_pages']
+
+# Plug-ins
+plugins:
+  - jekyll-postcss
+  - jekyll-last-modified-at
+  - jekyll-minifier
+  
+postcss:
+  cache: false

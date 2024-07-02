@@ -1,0 +1,29 @@
+<header class="flex w-full place-content-center fixed top-0 bg-white border-b">
+
+  <nav class="flex w-[80ch] justify-end p-4 gap-6">
+    
+    <!-- About -->
+    {% for page in site.pages %}
+      {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+    {% endfor %}
+    <div class="{% if page.permalink == '/' %}text-primary-accent{% endif %}">
+      <a href="{{ '/' | relative_url }}"  class="hover:text-primary-accent">{{- about_title }}</a>
+    </div>
+
+    <!-- Other pages -->
+    {% for page in site.pages %}
+      {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+    {% endfor %}
+    {% assign sorted_pages = site.pages | sort: 'nav_order' %}
+    {% for p in sorted_pages %}
+        {% if p.nav and p.autogen == null %}
+          {% assign parent_link = p.permalink | remove: 'index.html' %}
+          <div class="{% if page.url contains parent_link %}text-primary-accent{% endif %}">
+            <a href="{{ p.url | relative_url }}" class="hover:text-primary-accent">{{- p.title }} </a>
+          </div>
+        {% endif %}
+    {% endfor %}
+
+  </nav>
+
+</header>
