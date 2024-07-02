@@ -2,21 +2,24 @@
 layout: about
 title: About
 permalink: /
-charwidth: 60
 
 profile:
   image: aloe.png
+
+nav: true
+nav_order: 1
 ---
 
-Hello! 
+Hello!
 
-I am a fourth-year undergraduate student at the University of Toronto studying computer science and math. 
-Academically, I am interested in the intersection of machine learning and the life sciences, and in my spare time, I enjoy 
-digital painting.
+I am an incoming PhD student at MIT. Academically, I am interested in the intersection of machine
+learning and the life sciences, and in my spare time, I enjoy digital painting. 
 
-Currently, I am fortunate to be part-time (previously, co-op) at [Deep Genomics](https://www.deepgenomics.com/) as a machine learning research intern. 
-Previously, I have worked with [Mario Krenn](https://mariokrenn.wordpress.com/) and Professor [Alán Aspuru-Guzik](https://www.matter.toronto.edu/) on the SELFIES string-based molecular representation, 
-and [Juhan Bae](https://www.juhanbae.com/) and Professor [Roger Grosse](https://www.cs.toronto.edu/~rgrosse/) on influence functions (funded by NSERC USRA). 
-
-
-Please find attached my CV and transcript below.
+Previously, I recieved my HBSc degree from the University of Toronto. There, I was fortunate to
+co-op at [Deep Genomics](https://www.deepgenomics.com/) as a machine learning research intern. I
+also worked with [Austin Cheng](https://www.cs.toronto.edu/~austin/), [Mario
+Krenn](https://mariokrenn.wordpress.com/), and Prof. [Alán
+Aspuru-Guzik](https://www.matter.toronto.edu/) on structure elucidation from rotational spectra and
+the SELFIES molecular representation. I also had the privilige of working with [Juhan
+Bae](https://www.juhanbae.com/) and Prof. [Roger Grosse](https://www.cs.toronto.edu/~rgrosse/)
+on influence functions (funded by NSERC USRA).
