@@ -32,3 +32,7 @@ plugins:
 
 postcss:
   cache: false
+
+jekyll-minifier:
+  uglifier_args:
+      harmony: true

@@ -6,7 +6,10 @@
     {% for p in sorted_pages %}
         {% if p.nav and p.autogen == null %}
           <div class="{% if p.permalink == page.permalink %}text-primary-accent{% endif %}">
-            <a href="{{ p.url | relative_url }}" class="hover:text-primary-accent font-semibold">{{- p.title }} </a>
+            <a href="{{ p.url | relative_url }}" 
+               class="hover:text-primary-accent ease-in-out duration-200 font-semibold">
+              {{- p.title }}
+            </a>
           </div>
         {% endif %}
     {% endfor %}

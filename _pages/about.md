@@ -5,6 +5,7 @@ permalink: /
 
 profile:
   image: aloe.png
+transcript: transcript.pdf
 
 nav: true
 nav_order: 1
