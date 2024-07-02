@@ -2,14 +2,17 @@
 layout: default
 ---
 
-<div class="flex flex-row">
-  <div>
-  <header>
-    <h1>
-      {{ site.name }}
-    </h1>
-  </header>
-    <div class="flex flex-row gap-2 text-4xl py-4 *:ease-in-out *:duration-200">
+<div class="flex
+            max-[400px]:flex-col max-[400px]:place-items-center 
+            flex-row-reverse justify-center items-stretch min-h-28 mb-10 gap-4">
+  <img class="justify-right w-28 h-28 rounded-full overflow-hidden" src="{{ page.profile.image | prepend: 'assets/img/' }}" alt="Profile"> 
+  <div class="flex flex-col">
+    <header>
+      <h1>
+        {{ site.name }}
+      </h1>
+    </header>
+    <div class="flex flex-row gap-2 text-4xl pt-4 *:ease-in-out *:duration-200  max-[400px]:justify-center">
       <a class="hover:text-primary-accent" href="https://github.com/{{ site.github_username }}" title="GitHub">
         <i class="fa-brands fa-github"></i>
       </a>
@@ -23,7 +26,7 @@ layout: default
         <i class="ai ai-google-scholar"></i>
       </a>
     </div>
-  </div class="flex flex-col">
+  </div>
 </div>
 
 <article>
