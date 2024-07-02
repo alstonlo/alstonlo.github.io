@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+charwidth: 60
 
 profile:
   image: aloe.png
