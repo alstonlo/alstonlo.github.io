@@ -17,7 +17,6 @@ github_username:  alstonlo
 linkedin_username: alston-lo
 orcid_id: 0000-0003-1744-1446
 scholar_userid: VPvuTtMAAAAJ
-twitter_username: alston1o
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -30,6 +29,6 @@ plugins:
   - jekyll-postcss
   - jekyll-last-modified-at
   - jekyll-minifier
-  
+
 postcss:
   cache: false
