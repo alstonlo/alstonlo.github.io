@@ -7,7 +7,7 @@
         {% if p.nav and p.autogen == null %}
           <div class="{% if p.permalink == page.permalink %}text-primary-accent{% endif %}">
             <a href="{{ p.url | relative_url }}" 
-               class="hover:text-primary-accent ease-in-out duration-200 font-semibold">
+               class="hover:text-primary-accent ease-in-out duration-200 font-medium">
               {{- p.title }}
             </a>
           </div>
