@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  
+  <!-- Head -->
+  <head>
+    {% include head.liquid %}
+  </head>
+
+  <!-- Body -->
+  <body class="flex flex-col w-full min-h-screen">
+
+    <!-- Header -->
+    {% include header.liquid %}
+
+    <!-- Content -->
+    <div class="flex grow justify-center place-items-center">
+      {{ content }}
+    </div>
+
+    <!-- Footer -->
+    {% include footer.liquid %}
+
+  </body>
+</html>

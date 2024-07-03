@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<script>
+  function redirect(dest) {
+    setTimeout(() => location.href = dest, 200);
+  }
+</script>
+
+<div class="max-w-[60ch] my-12 mx-8">
+  <div class="flex
+              max-[410px]:flex-col max-[410px]:place-items-center 
+              flex-row-reverse justify-center items-stretch min-h-28 mb-10 gap-x-6 gap-y-2">
+    <img class="justify-right w-28 h-28 rounded-full overflow-hidden" src="{{ page.profile.image | prepend: 'assets/img/' }}" alt="Profile"> 
+    <div class="flex flex-col">
+      <header>
+        <h1>
+          {{ site.name }}
+        </h1>
+      </header>
+      <div class="flex flex-row gap-2 text-4xl pt-4 max-[410px]:justify-center">
+        <button class="hover:text-primary-accent squish-on-click"
+                onclick="redirect('https://github.com/{{ site.github_username }}')">
+          <i class="fa-brands fa-github"></i>
+        </button>
+        <button class="hover:text-primary-accent squish-on-click" 
+                onclick="redirect('https://www.linkedin.com/in/{{ site.linkedin_username }}')">
+          <i class="fa-brands fa-linkedin"></i>
+        </button>
+        <button class="hover:text-primary-accent squish-on-click" 
+                onclick="redirect('https://orcid.org/{{ site.orcid_id }}')">
+          <i class="ai ai-orcid"></i>
+        </button>
+        <button class="hover:text-primary-accent squish-on-click" 
+                onclick="redirect('https://scholar.google.com/citations?user={{ site.scholar_userid }}')">
+          <i class="ai ai-google-scholar"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <article>
+    {{ content }}
+  </article>
+
+  <div class="flex place-items-center justify-center mt-8 gap-4
+              *:overflow-hidden *:rounded-full *:bg-primary-dark *:px-5 *:py-2 *:text-white *:font-roboto">
+    <button class="hover:bg-primary-accent squish-on-click" href="{{ page.cv | prepend: 'assets/pdf/' }}">
+      🚧CV🛠️
+    </button>
+    <button class="hover:bg-primary-accent squish-on-click" href="{{ page.transcript | prepend: 'assets/pdf/' }}"
+            onclick="redirect('{{ page.transcript | prepend: 'assets/pdf/' }}')">
+      Transcript
+    </button>
+  </div>
+</div>
