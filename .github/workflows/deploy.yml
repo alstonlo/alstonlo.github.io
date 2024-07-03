@@ -18,6 +18,13 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2.2"
+      - name: Update _config.yml ⚙️
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "_config.yml"
+          propertyPath: "url"
+          value: "alstonlo.github.io"
       - name: Install and Build 🔧
         run: |
           gem install bundler:2.5.14

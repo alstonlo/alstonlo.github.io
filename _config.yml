@@ -3,7 +3,7 @@ name: Alston Lo
 email: alston@mit.edu
 description: The personal website of Alston Lo.
   
-url: "alstonlo.github.io"
+url: ""  # auto-set in deploy.yml
 baseurl: "" 
 icon: 🪴
 
