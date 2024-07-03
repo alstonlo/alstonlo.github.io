@@ -4,13 +4,14 @@
 <meta name="author" content="{{ author_name }}">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
-<title>{{ site.name }}</title>
+<title>{{ site.title }}</title>
 <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 <link rel="stylesheet" href="/assets/css/academicons.min.css"/>
+<link rel="stylesheet" href="/assets/css/fontawesome.min.css"/>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
