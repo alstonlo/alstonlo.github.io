@@ -17,8 +17,19 @@ article a {
   @apply text-primary-accent;
 }
 
-.squish-on-click {
-  @apply
-    duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] 
-    active:translate-y-1 active:scale-x-110 active:scale-y-90;
+@media (hover: none) {
+  .squish-on-click {
+    @apply
+      duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] 
+      hover:translate-y-1 hover:scale-x-110 hover:scale-y-90;
+  }
 }
+
+@media (hover: hover) {
+  .squish-on-click {
+    @apply
+      duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] 
+      active:translate-y-1 active:scale-x-110 active:scale-y-90;
+  }
+}
+
