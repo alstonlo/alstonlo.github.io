@@ -24,7 +24,7 @@ jobs:
           commitChange: false
           valueFile: "_config.yml"
           propertyPath: "url"
-          value: "alstonlo.github.io"
+          value: "https://alstonlo.github.io"
       - name: Install and Build 🔧
         run: |
           gem install bundler:2.5.14
