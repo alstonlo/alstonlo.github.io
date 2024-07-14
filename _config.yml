@@ -1,6 +1,7 @@
 title: Alston Lo
-name: Alston Lo
-email: alston@mit.edu
+author:
+  name: Alston Lo
+  email: alston@mit.edu
 description: The personal website of Alston Lo.
   
 url: ""  # auto-set in deploy.yml
@@ -29,6 +30,7 @@ plugins:
   - jekyll-postcss
   - jekyll-last-modified-at
   - jekyll-minifier
+  - jekyll-seo-tag
 
 postcss:
   cache: false

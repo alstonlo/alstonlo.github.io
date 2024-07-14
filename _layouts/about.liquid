@@ -16,12 +16,12 @@ layout: default
     <div class="flex flex-col">
       <header>
         <h1>
-          {{ site.name }}
+          {{ site.author.name }}
         </h1>
       </header>
       <div class="flex flex-row gap-2 text-4xl pt-4 max-[410px]:justify-center">
         <button class="hover:text-primary-accent squish-on-click"
-                onclick="redirect('mailto:{{ site.email | encode_email }}')">
+                onclick="redirect('mailto:{{ site.author.email | encode_email }}')">
           <i class="fa-solid fa-envelope"></i>
         </button>
         <button class="hover:text-primary-accent squish-on-click"
