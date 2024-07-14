@@ -4,7 +4,7 @@ author:
   email: alston@mit.edu
 description: The personal website of Alston Lo.
   
-url: "https://alstonlo.github.io"  # auto-set in deploy.yml
+url: ""  # auto-set in deploy.yml
 baseurl: "" 
 icon: 🪴
 
@@ -33,6 +33,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-minifier
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 postcss:
   cache: false
