@@ -4,11 +4,13 @@ author:
   email: alston@mit.edu
 description: The personal website of Alston Lo.
   
-url: ""  # auto-set in deploy.yml
+url: "https://alstonlo.github.io"  # auto-set in deploy.yml
 baseurl: "" 
 icon: 🪴
 
 lang: en
+
+google_site_verification: bmt7ZR-4pF9c5fHwJtldiYJ_DcQYyfoykpQn8Op9DiE
 
 # -----------------------------------------------------------------------------
 # Social integration
