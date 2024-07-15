@@ -4,7 +4,7 @@ author:
   email: alston@mit.edu
 description: The personal website of Alston Lo.
   
-url: ""  # auto-set in deploy.yml
+url: "https://alstonlo.github.io"  # auto-set in deploy.yml
 baseurl: "" 
 icon: 🪴
 
