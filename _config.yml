@@ -10,6 +10,7 @@ icon: 🪴
 
 lang: en
 
+google_analytics: G-1PFR331R9Y
 google_site_verification: bmt7ZR-4pF9c5fHwJtldiYJ_DcQYyfoykpQn8Op9DiE
 
 # -----------------------------------------------------------------------------
@@ -33,6 +34,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-minifier
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 postcss:
   cache: false
