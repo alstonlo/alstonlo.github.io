@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="max-w-[60ch]">
+  <header>
+    <h1 class="mb-4">
+      {{ page.title }}
+    </h1>
+  </header>
+
+  <article>
+    {{ content }}
+  </article>
+
+  <hr class="w-48 h-1 mx-auto my-8 bg-neutral-200 border-0">
+
+  <ul class="flex flex-col gap-y-4">
+    {%- for post in site.posts -%}
+      <li>
+        <a class="flex flex-col block px-6 py-4 gap-2 
+                  border border-primary-dark rounded-2xl 
+                  [@media(hover:hover){&:hover}]:-translate-x-4 
+                  duration-200 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] 
+                  font-semibold" 
+           href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
