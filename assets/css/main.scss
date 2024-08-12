@@ -17,7 +17,7 @@ html {
 }
 
 @media (hover: none) {
-  .squish-on-click:hover {
+  .squish-on-click:active {
     animation: squish 0.3s cubic-bezier(0.175,0.885,0.32,1.275) 1;
     @keyframes squish {
       0%, 
