@@ -30,19 +30,19 @@
 }
 
 article h2 {
-  @apply text-3xl sm:text-4xl font-bold break-words hyphens-auto mt-6 mb-4;
+  @apply text-3xl sm:text-4xl font-bold break-words mt-6 mb-4;
 }
 
 article h3 {
-  @apply text-2xl sm:text-3xl font-bold break-words hyphens-auto mt-6 mb-4;
+  @apply text-2xl sm:text-3xl font-bold break-words mt-6 mb-4;
 }
 
 article h4 {
-  @apply text-lg font-bold break-words hyphens-auto my-4;
+  @apply text-lg font-bold break-words my-4;
 }
 
 article p {
-  @apply text-base hyphens-auto my-2;
+  @apply text-base my-2;
 }
 
 article a {
