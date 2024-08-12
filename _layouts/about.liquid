@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<div class="max-w-[60ch] my-12 mx-8">
+<div class="max-w-[60ch]">
   <div class="flex
               max-[410px]:flex-col max-[410px]:place-items-center
               flex-row-reverse justify-center items-stretch min-h-28 mb-10 gap-x-6 gap-y-2">
     <img class="justify-right w-28 h-28 rounded-full overflow-hidden" src="{{ page.profile.image | prepend: 'assets/img/' }}" alt="Profile">
     <div class="flex flex-col">
       <header>
-        <h1>
+        <h1 class="text-5xl font-bold">
           {{ site.author.name }}
         </h1>
       </header>

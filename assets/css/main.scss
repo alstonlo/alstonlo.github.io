@@ -5,20 +5,19 @@
 @tailwind components;
 @tailwind utilities;
 
-p {
-  @apply text-base text-left hyphens-auto my-2;
+
+html {
+  scroll-behavior: smooth;
 }
 
-h1 {
-  @apply text-5xl font-bold;
-}
-
-article a {
-  @apply text-primary-accent;
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
 }
 
 @media (hover: none) {
-  .squish-on-click:hover {
+  .squish-on-click:active {
     animation: squish 0.3s cubic-bezier(0.175,0.885,0.32,1.275) 1;
     @keyframes squish {
       0%, 
@@ -40,4 +39,31 @@ article a {
   }
 }
 
+article h2 {
+  @apply text-3xl sm:text-4xl font-bold break-words mt-6 mb-4;
+}
+
+article h3 {
+  @apply text-2xl sm:text-3xl font-bold break-words mt-6 mb-4;
+}
+
+article h4 {
+  @apply text-lg font-bold break-words my-4;
+}
+
+article p {
+  @apply text-base my-2;
+}
+
+article a {
+  @apply text-primary-accent;
+}
+
+article ul {
+  @apply list-disc pl-6;
+}
+
+article ol {
+  @apply list-decimal pl-6;
+}
 
