@@ -6,6 +6,16 @@
 @tailwind utilities;
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
 @media (hover: none) {
   .squish-on-click:hover {
     animation: squish 0.3s cubic-bezier(0.175,0.885,0.32,1.275) 1;
