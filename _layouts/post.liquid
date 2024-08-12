@@ -28,9 +28,11 @@ layout: default
     {% include giscus.liquid %}
   {% endif %}
 
-  <a class="fixed bottom-4 end-4 rounded-full p-3 w-11
-            shadow-md shadow-neutral-400
-            bg-primary-accent text-white squish-on-click" href="#">
+  <button id="top-of-page" 
+          class="fixed bottom-4 end-4 rounded-full p-3 w-11
+                 shadow-md shadow-neutral-400
+                 bg-primary-accent text-white"
+          onclick="switchFunction();location.href='#'">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
@@ -42,6 +44,11 @@ layout: default
         stroke-linejoin="round"
         d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
     </svg>
-  </a>
+  </button>
+  <script>
+    myButton = document.getElementById('top-of-page')
+    myButton.addEventListener("animationend", () => myButton.classList.remove('squish-animation'));
+    switchFunction = () => myButton.classList.add('squish-animation');
+  </script>
 
 </div>
