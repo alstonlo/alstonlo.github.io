@@ -77,6 +77,7 @@ The following is a list of the CS or CS-adjacent summer research programs that I
 - Summer Undergraduate Data Science (SUDS) Opportunities Program
 - Dunlap Institute’s SURP in Astronomy & Astrophysics
 - Fields Undergraduate Summer Research Program (FUSRP)
+- T-CAIREM AI in Medicine Summer Student Research Program
 - Laidlaw Scholars Program
 - Google’s Summer of Code
 
@@ -174,10 +175,11 @@ I would like to end with three comments. First, although I have tried to incorpo
 
 For other UofT students’ perspectives on courses, research, and internships, see:
 
+- The UofT Department of CS [Ambassadors website](https://www.teach.cs.toronto.edu/ambassadors) compiles perspectives from upper-year CS students, including a [guide on research in CS](https://www.teach.cs.toronto.edu/ambassadors/guides/career/research/) 
 - UofT’s Computer Science Student Union’s [First Year’s Guide to CS](https://www.cssu.ca/posts/first-years-guide-to-cs)
 - [Unofficial UofT CS Min-Max Intern Guide](https://hanmin.dev/blog/uoft-cs-guide/), written by Hanmin Kim
 - [Friendly Guide to UofT CS](https://github.com/talicopanda/friendly-guide-to-uoft-cs), written by students from the Technology Leadership Initiative
 
 ## Acknowledgements
 
-Thanks to my mentors and colleagues from Prof. Alán Aspuru-Guzik’s Matter Lab, Prof. Roger Grosse’s group, and Deep Genomics for guiding and supporting me throughout my undergraduate research journey. Thanks, Akiki Liang, Aviraj Newatia, Daniel Livshits, Danny Chen, Felix Zhang, Hanmin Kim, Raghav Arora, and Vedang Naik for the suggestions and feedback.
+Thanks to my mentors and colleagues from Prof. Alán Aspuru-Guzik’s Matter Lab, Prof. Roger Grosse’s group, and Deep Genomics for guiding and supporting me throughout my undergraduate research journey. Thanks, Prof. Mario Badr, Akiki Liang, Aviraj Newatia, Daniel Livshits, Danny Chen, Felix Zhang, Hanmin Kim, Raghav Arora, and Vedang Naik for the suggestions and feedback.
