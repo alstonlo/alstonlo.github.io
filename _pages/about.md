@@ -13,7 +13,7 @@ nav_order: 1
 Hello!
 
 I am a PhD student at MIT CSAIL supervised by Prof. [Wojciech Matusik](https://cdfg.mit.edu/wojciech).
-Academically, I am interested in the intersection of machine learning and the life sciences, and in
+Academically, I am interested in the intersection of machine learning and science, and in
 my spare time, I enjoy digital painting.
 
 Previously, I received my HBSc degree from the University of Toronto. There, I was fortunate to
